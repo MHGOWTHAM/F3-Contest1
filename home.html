@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Landed</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="shortcut icon" href="/images/icon.png" type="image/x-icon">
+</head>
+<body>
+
+    <div class="menu-container">
+        <div class="items">
+            <div class="menu-logo">
+                <img src="/images/menu-logo.png" alt="Menu-logo" width="200" height="200">
+                <h4 class="menu-items">Your Restaurant Menu</h4>
+                <p class="slogan">Your Slogan</p>
+            </div>
+            <div class="menu-links">
+                <h4>Quick Links</h4>
+                <ol>
+                    <li>Home</li>
+                    <li>Your Orders</li>
+                    <li>Wallet</li>
+                    <li>Profile</li>
+                    <li>Logout</li>
+                </ol>
+            </div>
+            <div class="menu-about">
+                <h4>More About Us</h4>
+                <ol>
+                    <li>Our Blog</li>
+                    <li>Upcoming dishes</li>
+                    <li>Our Story</li>
+                    <li>Social Media Links</li>
+                    
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-container">
+        <div class="nav-bar">
+            <div class="nav-items">
+                <div class="search-container">
+                    <img class="search-icon" src="images/search 1.png" alt="search-icon" >
+                    <input type="search" name="search" id="search-input" placeholder="Search Food Item">
+                </div>
+                <button class="signup">Signup</button>
+                <button class="login">Login</button>
+                <img src="/images/icon.png" alt="icon" >
+            </div>
+        </div>
+        <div class="menu-pamphlet">
+            <img src="/images/menu-pamphlet.png" alt="menu-pamphlet" >
+        </div>
+        <div id="menuPage" class="hidden">
+            <h1>Menu</h1>
+            <div id="menu"></div>
+            <button onclick="takeOrder()">P</button>
+          </div>
+    </div>
+    
+    <script src="home.js"></script>
+</body>
+</html>

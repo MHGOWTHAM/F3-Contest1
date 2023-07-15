@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.menu-container{
+    top: 0px;
+    left: 0;
+    max-width: 20%;
+    height: 100vh;
+    background: #0C0E10;
+    position: fixed;
+    color: white;
+}
+.menu-container .items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.items .menu-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgb(75, 74, 74);
+}
+.menu-logo img{
+    width: 75%;
+    height: 75%;
+}
+.slogan{
+    color:#FF2424;
+    padding-bottom: 10px;
+}
+.menu-links{
+    border-bottom: 1px solid rgb(75, 74, 74);
+}
+.menu-links h4{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.menu-links ol{
+    padding: 10px 35px;
+}
+.menu-links ol li{
+    padding: 2px 30px;
+}
+.menu-about h4{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.menu-about ol{
+    padding: 10px 35px;
+}
+.menu-about ol li{
+    padding: 2px 30px;
+}
+
+
+.right-container{
+    position: relative;
+    left: 20%;
+    max-width: 80%;
+    height: 100vh;
+    background-color: #191D20;
+}
+/*  navbar */
+
+.nav-bar{
+    height: 10vh;
+    padding: 5px 10px;
+    background-color: #191D20;
+}
+
+.nav-bar .nav-items{
+    display: flex;
+    justify-content: space-around;
+    height: 35px;
+}
+.nav-items .search-container{
+    position: relative;
+}
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    width: 18px;
+    height: 18px;
+}
+
+.nav-items #search-input{
+   width: 550px;
+   height: 35px;
+   padding-left: 40px;
+   background: #272A30;
+   border: none;
+   color: white;
+   outline: none;
+}
+.nav-items #serach:focus{
+    border: none;
+    outline: none;
+}
+.nav-items .signup{
+    width: 150px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.nav-items .login{
+    width: 150px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+            /* menu-pamphlet */
+
+
+.menu-pamphlet img{
+    width: 98%;
+    padding-left: 30px;
+    height: 40vh;
+}
+
+  
+  #menuPage {
+   text-align: center;
+  }
+  
+  #menu {
+    margin: 20px;
+  }
+  
+  #menu div {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    color: black;
+    color: rgb(94, 89, 89);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+ 
